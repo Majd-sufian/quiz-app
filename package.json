@@ -1,0 +1,13 @@
+{
+  "name": "rockettuor-coding-challenge",
+  "version": "1.0.0",
+  "description": "rockettuor-coding-challenge",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd client && npm install && cd .. && cd server && npm install && cd ..",
+    "start-client": "cd client && npm run dev",
+    "start-server": "cd server && nodemon start"
+  },
+  "author": "",
+  "license": "ISC"
+}
